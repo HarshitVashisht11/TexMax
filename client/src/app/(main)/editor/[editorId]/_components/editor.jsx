@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import initialCode from '@/utils/initial-code';
 import socket from '@/utils/socket';
 import PdfViewer from './pdf-viewer';
