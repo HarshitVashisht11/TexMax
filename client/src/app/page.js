@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { ArrowRight } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { v4 as uuidv4 } from 'uuid';
@@ -18,7 +18,7 @@ export default function Home() {
           TeX MaX
         </h1>
         <p className="mt-6 text-lg md:text-xl">
-          The free LaTeX editor that lets you start working without sign-up. Just click "Get Started" and dive into your work seamlessly.
+          The free LaTeX editor that lets you start working without sign-up. Just click &quot;Get Started&quot; and dive into your work seamlessly.
         </p>
         <button
           onClick={handleCreateEditor}
